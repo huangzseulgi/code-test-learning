@@ -36,6 +36,7 @@ def test_login_success(get_webdriver):
 """
 # @pytest.mark.skip
 def test_login_success_using_cookies(get_webdriver):
+    # 将上一步的cookie复制粘贴在这里
     cookies = 1
     driver = get_webdriver
     # 进入页面慕慕生鲜
