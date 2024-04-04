@@ -10,10 +10,6 @@ chromedriver = r"E:\chromedriver-win64\chromedriver.exe"
 # option
 option = webdriver.ChromeOptions()
 option.binary_location = chrome_testing_path
-# 设定只打开一次：首先在命令行终端先打开这个浏览器
-# E:\chrome-win64\chrome.exe --remote-debugging-port=9222
-# --user-data-dir="E:\chromedriver-win64\selenium_automationProfile"
-# option.add_experimental_option("debuggerAddress", "127.0.0.1:9222")
 # 设定打开浏览器之后不会自己关闭
 option.add_experimental_option("detach", True)
 # 隐藏正在收到自动测试软件的控制这句话
